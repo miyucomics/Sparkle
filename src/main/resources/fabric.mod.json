@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "sparkle",
+	"version": "${version}",
+
+	"name": "Sparkle!",
+	"description": "Make diamonds, amethyst, and other shiny materials emit sparkling particles!",
+	"authors": [
+		"BrianComics#8994"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+
+	"license": "CC0-1.0",
+	"icon": "assets/sparkle/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"briancomics.sparkle.SparkleMain"
+		],
+		"client": [
+			"briancomics.sparkle.SparkleClient"
+		]
+	},
+	"mixins": [
+		"sparkle.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.12.12",
+		"fabric": "*",
+		"minecraft": "1.18.x",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
