@@ -3,8 +3,9 @@
 	"minVersion": "0.8",
 	"package": "briancomics.sparkle.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"BlockMixin"
+	"client": [
+		"BlockMixin",
+		"ItemEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

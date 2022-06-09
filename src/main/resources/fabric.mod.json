@@ -3,8 +3,8 @@
 	"id": "sparkle",
 	"version": "${version}",
 
-	"name": "Sparkle!",
-	"description": "Make diamonds, amethyst, and other shiny materials emit sparkling particles!",
+	"name": "Sparkle",
+	"description": "Makes sparkly blocks emit glow-in-the-dark sparkling particles!",
 	"authors": [
 		"BrianComics#8994"
 	],
@@ -30,9 +30,9 @@
 	],
 
 	"depends": {
-		"fabricloader": ">=0.12.12",
+		"fabricloader": ">=0.14.6",
 		"fabric": "*",
-		"minecraft": "1.18.x",
+		"minecraft": "~1.19",
 		"java": ">=17"
 	},
 	"suggests": {
