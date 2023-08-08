@@ -8,8 +8,14 @@
 		"minecraft:medium_amethyst_bud",
 		"minecraft:large_amethyst_bud",
 		"minecraft:amethyst_cluster",
-		"minecraft:diamond_ore",
+		"minecraft:calibrated_sculk_sensor",
+		"#minecraft:diamond_ores",
 		"minecraft:diamond_block",
-		"minecraft:deepslate_diamond_ore"
+		"#minecraft:emerald_ores",
+		"minecraft:emerald_block",
+		"#minecraft:gold_ores",
+		"minecraft:gold_block",
+		"minecraft:raw_gold_block",
+		"minecraft:gilded_blackstone"
 	]
 }
