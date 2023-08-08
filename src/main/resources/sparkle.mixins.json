@@ -5,12 +5,10 @@
   "compatibilityLevel": "JAVA_17",
   "client": [
     "BlockMixin",
-    "ItemEntityMixin"
+    "ItemEntityMixin",
+    "LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  },
-  "mixins": [
-    "LivingEntityMixin"
-  ]
+  }
 }
